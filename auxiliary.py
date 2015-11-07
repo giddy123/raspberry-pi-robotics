@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # Auxiliary functions, such as releasing GPIO
+# Created by Dmitriy Buslovich
 
 #-------------------------------------------------------------------------------
 #### Imports ####
