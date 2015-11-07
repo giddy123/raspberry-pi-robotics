@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # Servo Control for Raspberry Pi with Adafruit servo control board 
+# Created by Dmitriy Buslovich
 
 #-------------------------------------------------------------------------------
 #### Imports ####
@@ -18,7 +19,7 @@ pwm = PWM(0x40)
 #Servo frequency 50Hz
 pwm.setPWMFreq(50)
 
-#these values cannot be smaller than 104 and more than 521, as this may cause servo damage!
+# these values cannot be smaller than 104 and more than 521; otherwise your servos may be damaged. Use at your own risk!
 _PAN_SERVO_CHANNEL=0
 _TILT_SERVO_CHANNEL=1
 
