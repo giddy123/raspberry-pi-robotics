@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # Sonar Control for Raspberry Pi with HC-SR04 
+# Created by Dmitriy Buslovich
 
 #-------------------------------------------------------------------------------
 #### Imports ####
