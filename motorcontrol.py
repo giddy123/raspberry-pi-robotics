@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # Motor Control for Raspberry Pi with DRV8833 Dual Motor Driver Carrier 
+# Created by Dmitriy Buslovich
 
 #-------------------------------------------------------------------------------
 #### Imports ####
