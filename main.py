@@ -1,4 +1,5 @@
-#controlling a robot with two motors that can avoid obstacles by using a sonar mounted on pan/tilt servos
+# Controlling a robot with two motors that can avoid obstacles by using a sonar mounted on pan/tilt servos
+# Created by Dmitriy Buslovich
 
 import motorcontrol, servocontrol, sonarcontrol, auxiliary
 import time
