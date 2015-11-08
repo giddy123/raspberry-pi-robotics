@@ -14,7 +14,9 @@ What you will need:
 - Two Servos 
 - Servo control board (I used Adafruit AI 815). 
 - Sonar HC-SR04
+- 1k resistor for the sonar. See schematics for details.
 - Three batteries: one for Raspberry Pi (I am using a cell phone battery), one for the motors, and one for the servos.
+- Pan/tilt mechanism for the servos. I built one myself but there are many ready-to-go options online. You can also forgo the servos altogether and mount the sonar in a fixed position.
 
 The robot schematics are here: https://cloud.githubusercontent.com/assets/889838/11018099/8ee63026-856d-11e5-8c5a-98f11b9a7865.png
 You can see how all the sensors, servos, and motors are connected
