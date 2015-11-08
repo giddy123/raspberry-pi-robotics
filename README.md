@@ -24,4 +24,4 @@ You can see how all the sensors, servos, and motors are connected
 The algorithm for navigation is very basic at this point but you should have everything you need to optimize it. I am not currently using the tilt server but you can
 
 You start the program by running main.py.
-The script activates sonar, which takes 5 readings, removes outliars and returns a median value.
+The robot turns the sonar to the left, to the right, and center. It takes 5 readings, removes outliars and returns a median value. It then turns in the direction where the value is the largest (farthest distance) and starts moving. The robot takes readings while in motion. If it encounters an obstacle, it stops and "looks" around again to figure out where to go next.
